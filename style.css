@@ -1,0 +1,190 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and container styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* Ruang Kosong Atas dengan Ayat Promosi */
+.promo-section {
+  padding: 60px 0;
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+}
+
+.promo-text h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.promo-text p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+/* Gambar Produk */
+.main-product {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.main-product img {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Header styles */
+header {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  padding: 80px 0;
+  background-image: url("image/header-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+header p {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.buy-now-btn {
+  display: inline-block;
+  background-color: #ffcc00;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.buy-now-btn:hover {
+  background-color: #ff9900;
+}
+
+/* About section styles */
+.about {
+  padding: 50px 0;
+  background-color: #fff;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Contact section styles */
+.contact {
+  padding: 50px 0;
+  background-color: #ffcc00;
+  text-align: center;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.contact p {
+  font-size: 1.3rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 1.1rem;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .contact h2 {
+    font-size: 1.5rem;
+  }
+
+  .contact p {
+    font-size: 1.1rem;
+  }
+
+  .buy-now-btn {
+    font-size: 1.2rem;
+  }
+
+  .promo-text h2 {
+    font-size: 2rem;
+  }
+
+  .promo-text p {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .container {
+    width: 85%;
+  }
+
+  header h1 {
+    font-size: 2.5rem;
+  }
+
+  .contact h2 {
+    font-size: 2rem;
+  }
+
+  .contact p {
+    font-size: 1.3rem;
+  }
+
+  .buy-now-btn {
+    font-size: 1.3rem;
+  }
+}
